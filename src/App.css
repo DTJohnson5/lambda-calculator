@@ -20,3 +20,79 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .logo {
+      width: 50%;
+  }
+
+  .input {
+    border-radius: 30px;
+    height: 60px;
+    width: 250px;
+    background: #322c2d;
+    color: white;
+    text-align: right;
+    font-size: 40px;
+    outline: none;
+    border: none;
+  }
+
+  .disCon {
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+   .values {
+    display: flex;
+  }
+  
+   .variables {
+    width: 65%;
+    margin: 6% 0 0 15%;
+  }
+  
+   .operands {
+    width: 35%;
+    margin: 6% 8% 0 0;
+  }
+  
+   .spcContainer {
+    width: 90%;
+    margin-left: 10%;
+  }
+  
+   .numContainer {
+    width: 90%;
+    margin-left: 10%;
+  }
+  
+   .operContainer {
+    width: 20%;
+    margin-right: 0;
+  }
+  
+   .numBtn, .operBtn, .spcBtn {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-size: 30px;
+  }
+
+  .numBtn{
+    background-color: navy;
+  }
+
+  .operBtn{
+    background-color: dodgerblue;
+  }
+
+  .spcBtn{
+    background-color: blue;
+  }
+  
+   .numBtn:nth-child(10) {
+    width: 150px;
+    border-radius: 40%;
+  }
